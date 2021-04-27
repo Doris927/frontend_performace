@@ -1,0 +1,21 @@
+# 性能指标和优化目标
+- network
+- lighthouse
+  - first contentful paint
+  - speed index(4s)
+  - 页面加载时间
+  - TTFB
+- 响应
+  - 交互动作的反馈时间
+  - 帧率FPS
+  - 异步请求的完成时间
+- RAIL测量模型（Google的建议）
+  - Response(响应：50ms以内)
+  - Animation（动画，每10ms产生一帧）
+  - Idle（空闲）
+  - Load（加载：5s内完成所有内容加载，并可以交互）
+- 性能测量工具
+  - DevTools
+  - lighthouse
+  - WebPageTest
+
